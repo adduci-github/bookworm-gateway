@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: bookworm-gateway
+  cloud:
+    config:
+      uri: http://bookworm-config-server:8000
+server:
+  port: 8001
